@@ -1,0 +1,177 @@
+body{
+  color: #40514e;
+  margin:0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+
+}
+
+
+.top-container {
+  background-color: #dcd6f7;
+  /*height: 200px;*/
+  /*width: 200px;*/
+
+  position: relative;
+  padding-top:150px;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+
+
+}
+
+.middle-container {
+
+
+}
+
+.bottom-container {
+    background-color: #916dd5;
+
+    padding: 50px 0 20px ;
+
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom:300px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  bottom:0;
+}
+.mountain{
+  margin:0;
+  bottom: 0;
+}
+h1 {
+  margin:0 auto 15px auto;
+  color :#3e206d;
+  top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size:95px;
+}
+
+h2 {
+
+  color :#3e206d;
+  font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+h3 {
+
+  color :#3e206d;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+  border: 7px;
+  border-style: dotted none none;
+  width: 5%;
+  border-color: #dbdbdb;
+  margin: 100px auto;
+}
+
+.intro{
+  font-size: 2.5rem;
+  color: #3e206d;
+  font-weight: lighter;
+}
+
+
+
+.pro{
+  text-decoration: underline;
+}
+
+.introd{
+
+  margin: auto;
+}
+.profile{
+  line-height: 2rem;
+}
+.profilepic{
+  border-radius: 100%;
+  margin-top: 100px;
+  height: 200px;
+  width: 200px;
+}
+
+.skillpic1{
+  width: 25%;
+  height: 25%;
+  float: left;
+  padding-right: 25px;
+}
+
+.skillpic2{
+  width: 25%;
+  height: 25%;
+  float: right;
+  padding-left: 25px;
+}
+
+.skill-row{
+  margin: 100px auto ;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+
+}
+.contact-me{
+  margin-bottom: 70px;
+}
+
+
+.contact-message{
+  line-height: 2rem;
+  width: 40%;
+  margin:40px auto 60px auto;
+}
+
+a{
+  color:#3e206d;
+  font-family: 'Montserrat', sans-serif;
+  margin:10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#eaf6f6;
+}
+
+.myButton {
+	box-shadow: 0px 0px 0px 0px #3dc21b;
+	background:linear-gradient(to bottom, #ff00f7 5%, #9f00ad 100%);
+	background-color:#ff00f7;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #9f00ad 5%, #ff00f7 100%);
+	background-color:#9f00ad;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright{
+  color:#eaf6f6;
+  font-size: 12px;
+  padding: 20px 0;
+}
